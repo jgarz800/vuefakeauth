@@ -1,28 +1,19 @@
 <template>
-<div class="bg-green-800 text-green-200">
-<div class="container mx-auto flex items-center justify-between">
-        <h1 class="tracking-tighter text-3xl font-thin">Basic<span class="font-normal">Router</span></h1>
+<div class="text-teal-200 bg-teal-800">
+<div class="container flex items-center justify-between mx-auto">
+        <h1 class="text-3xl font-thin tracking-tighter">Vue<span class="font-normal">FakeAuth</span></h1>
         <nav>
             <ul class="flex space-x-4">
                 <router-link to="/">
-                <li class="py-8 px-4 
-                hover:cursor-pointer 
-                hover:bg-green-500 
-                hover:text-green-800">
+                <li class="px-4 py-8 hover:cursor-pointer hover:bg-teal-500 hover:text-teal-800">
                     Home
                 </li>
                 </router-link>
                 <router-link :to = "{ name: 'About'}">
-                <li class="py-8 px-4 
-                hover:cursor-pointer 
-                hover:bg-green-500 
-                hover:text-green-800">About</li>
+                <li class="px-4 py-8 hover:cursor-pointer hover:bg-teal-500 hover:text-teal-800">About</li>
                 </router-link>
                 <router-link :to = "{ path: '/hello', name:'Hello'}">
-                <li class="py-8 px-4 
-                hover:cursor-pointer 
-                hover:bg-green-500 
-                hover:text-green-800">Hello</li>
+                <li class="px-4 py-8 hover:cursor-pointer hover:bg-teal-500 hover:text-teal-800">Hello</li>
                 </router-link>
          </ul>
         </nav>
