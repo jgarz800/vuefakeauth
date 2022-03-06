@@ -15,6 +15,9 @@
                 <router-link :to = "{ path: '/login', name:'Login'}">
                 <li class="px-4 py-8 hover:cursor-pointer hover:bg-teal-500 hover:text-teal-800">Login</li>
                 </router-link>
+                <router-link :to = "{ path: '/secret', name:'Secret'}">
+                <li class="px-4 py-8 hover:cursor-pointer hover:bg-teal-500 hover:text-teal-800">Secret</li>
+                </router-link>
          </ul>
         </nav>
     </div>
